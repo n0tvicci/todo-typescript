@@ -11,6 +11,7 @@ interface Props {
 const TodoList: React.FC<Props> = ({ todos, setTodos }) => {
   return (
     <div className="todos">
+      <span className="todos__heading">Active Tasks</span>
       {todos.map((todo) => (
         <SingleTodo
           key={todo.id}

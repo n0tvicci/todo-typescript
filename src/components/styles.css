@@ -53,6 +53,12 @@
   background-color: rgb(50, 195, 205);
 }
 
+.todos__heading {
+  font-size: 30px;
+  /* text-align: center; */
+  color: white;
+}
+
 .todos__single {
   display: flex;
   border-radius: 5px;
